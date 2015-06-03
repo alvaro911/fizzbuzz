@@ -1,0 +1,27 @@
+p{
+	float: left;
+	margin: 5px;
+	padding: 20px;
+	text-align: center;
+}
+
+.fizzbuzz{
+	background-color: green;
+	height: 60px;
+	width:  60px;
+	border-radius: 50%;
+}
+
+.fizz{
+	background-color: blue;
+	height: 60px;
+	width:  60px;
+	border-radius: 50%;
+}
+
+.buzz{
+	background-color: red;
+	height: 60px;
+	width:  60px;
+	border-radius: 50%;
+}

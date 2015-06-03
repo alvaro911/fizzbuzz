@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fizz buzz</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+</head>
+<body>
+
+<div id="div1">	
+</div>
+
+<script>
+		var para;
+		var node;
+		var element = document.getElementById("div1");
+for(var i= 1; i<101; i++){
+	if((i % 3 === 0) &&(i % 5 === 0)){
+
+		para = document.createElement("p");
+		para.classList.add("fizzbuzz");
+		node = document.createTextNode("fizzbuzz");
+		para.appendChild(node);
+		element.appendChild(para);
+	}else if(i % 5 === 0){
+		 para = document.createElement("p");
+		 para.classList.add("buzz");
+		 node = document.createTextNode("buzz");
+		para.appendChild(node);
+		element.appendChild(para);
+	}else if(i % 3 === 0){
+		para = document.createElement("p");
+		para.classList.add("fizz");
+		node = document.createTextNode("fizz");
+		para.appendChild(node);
+		element.appendChild(para);
+	}else{
+		para = document.createElement("p");
+		node = document.createTextNode(i);
+		para.appendChild(node);
+		element = document.getElementById("div1");
+		element.appendChild(para);
+	}
+  
+}
+
+</script>
+
+</body>
+</html>
