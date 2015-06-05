@@ -3,25 +3,38 @@ p{
 	margin: 5px;
 	padding: 20px;
 	text-align: center;
+	height: 60px;
+	width:  60px;
+	background-color: #499baa;
+	border-radius: 50%;
+	color: white;
 }
 
 .fizzbuzz{
-	background-color: green;
+	background-color: #ccd96c;
 	height: 60px;
 	width:  60px;
 	border-radius: 50%;
+	color: white;
 }
 
 .fizz{
-	background-color: blue;
+	background-color: #495931;
 	height: 60px;
 	width:  60px;
 	border-radius: 50%;
+	color: white;
 }
 
 .buzz{
-	background-color: red;
+	background-color: #73486c;
 	height: 60px;
 	width:  60px;
 	border-radius: 50%;
+	color:white;
 }
+
+body{
+	background-color: #40382a;
+}
+
